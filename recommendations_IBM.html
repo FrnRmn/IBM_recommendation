@@ -15462,23 +15462,11 @@ jp-needs-light-background
     <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
 
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>
-<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
-<span class="ansi-red-intense-fg ansi-bold">FileNotFoundError</span>                         Traceback (most recent call last)
-<span class="ansi-green-intense-fg ansi-bold">~\AppData\Local\Temp/ipykernel_3356/1386757306.py</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
-<span class="ansi-green-fg">      5</span> 
-<span class="ansi-green-fg">      6</span> <span class="ansi-red-intense-fg ansi-bold"># Test each of your three lists from above</span>
-<span class="ansi-green-intense-fg ansi-bold">----&gt; 7</span><span class="ansi-yellow-intense-fg ansi-bold"> </span>t<span class="ansi-yellow-intense-fg ansi-bold">.</span>sol_2_test<span class="ansi-yellow-intense-fg ansi-bold">(</span>get_top_articles<span class="ansi-yellow-intense-fg ansi-bold">)</span>
-
-<span class="ansi-green-intense-fg ansi-bold">c:\Users\franc\OneDrive\Documenti\DATA_SCIENCE\Udacity\A_Projects\Project3\project_tests.py</span> in <span class="ansi-cyan-fg">sol_2_test</span><span class="ansi-blue-intense-fg ansi-bold">(top_articles)</span>
-<span class="ansi-green-fg">     37</span>     checks <span class="ansi-yellow-intense-fg ansi-bold">=</span> <span class="ansi-yellow-intense-fg ansi-bold">[</span><span class="ansi-blue-intense-fg ansi-bold">&#39;top_5&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-blue-intense-fg ansi-bold">&#39;top_10&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-blue-intense-fg ansi-bold">&#39;top_20&#39;</span><span class="ansi-yellow-intense-fg ansi-bold">]</span>
-<span class="ansi-green-fg">     38</span>     <span class="ansi-green-intense-fg ansi-bold">for</span> idx<span class="ansi-yellow-intense-fg ansi-bold">,</span> file <span class="ansi-green-intense-fg ansi-bold">in</span> enumerate<span class="ansi-yellow-intense-fg ansi-bold">(</span>checks<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-intense-fg ansi-bold">---&gt; 39</span><span class="ansi-yellow-intense-fg ansi-bold">         </span><span class="ansi-green-intense-fg ansi-bold">if</span> set<span class="ansi-yellow-intense-fg ansi-bold">(</span>eval<span class="ansi-yellow-intense-fg ansi-bold">(</span>file<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">)</span> <span class="ansi-yellow-intense-fg ansi-bold">==</span> set<span class="ansi-yellow-intense-fg ansi-bold">(</span>pickle<span class="ansi-yellow-intense-fg ansi-bold">.</span>load<span class="ansi-yellow-intense-fg ansi-bold">(</span>open<span class="ansi-yellow-intense-fg ansi-bold">(</span> <span class="ansi-blue-intense-fg ansi-bold">&#34;{}.p&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">.</span>format<span class="ansi-yellow-intense-fg ansi-bold">(</span>file<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">,</span> <span class="ansi-blue-intense-fg ansi-bold">&#34;rb&#34;</span> <span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-<span class="ansi-green-fg">     40</span>             print<span class="ansi-yellow-intense-fg ansi-bold">(</span><span class="ansi-blue-intense-fg ansi-bold">&#34;Your {} looks like the solution list! Nice job.&#34;</span><span class="ansi-yellow-intense-fg ansi-bold">.</span>format<span class="ansi-yellow-intense-fg ansi-bold">(</span>file<span class="ansi-yellow-intense-fg ansi-bold">)</span><span class="ansi-yellow-intense-fg ansi-bold">)</span>
-<span class="ansi-green-fg">     41</span>         <span class="ansi-green-intense-fg ansi-bold">else</span><span class="ansi-yellow-intense-fg ansi-bold">:</span>
-
-<span class="ansi-red-intense-fg ansi-bold">FileNotFoundError</span>: [Errno 2] No such file or directory: &#39;top_5.p&#39;</pre>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Your top_5 looks like the solution list! Nice job.
+Your top_10 looks like the solution list! Nice job.
+Your top_20 looks like the solution list! Nice job.
+</pre>
 </div>
 </div>
 
